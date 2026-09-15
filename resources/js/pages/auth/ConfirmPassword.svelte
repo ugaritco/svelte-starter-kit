@@ -19,7 +19,7 @@
     import {
         index as confirmOptions,
         store as confirmStore,
-    } from '@/actions/Laravel/Passkeys/Http/Controllers/PasskeyConfirmationController';
+    } from '@/actions/Ugarit/Passkeys/Http/Controllers/PasskeyConfirmationController';
     import PasskeyVerify from '@/components/PasskeyVerify.svelte';
     /* @end-chisel-passkeys */
 </script>

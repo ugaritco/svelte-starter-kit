@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { usePasskeyRegister } from '@laravel/passkeys/svelte';
+    import { usePasskeyRegister } from '@ugarit/passkeys/svelte';
     import InputError from '@/components/InputError.svelte';
     import { Button } from '@/components/ui/button';
     import { Input } from '@/components/ui/input';

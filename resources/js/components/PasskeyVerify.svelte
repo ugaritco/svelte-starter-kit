@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { UrlMethodPair } from '@inertiajs/core';
     import { router } from '@inertiajs/svelte';
-    import { usePasskeyVerify } from '@laravel/passkeys/svelte';
+    import { usePasskeyVerify } from '@ugarit/passkeys/svelte';
     import KeyRound from '@lucide/svelte/icons/key-round';
     import { untrack } from 'svelte';
     import InputError from '@/components/InputError.svelte';
