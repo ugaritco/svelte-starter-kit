@@ -1,9 +1,9 @@
 import inertia from '@inertiajs/vite';
-import { wayfinder } from '@laravel/vite-plugin-wayfinder';
+import { wayfinder } from '@ugarit/vite-plugin-wayfinder';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import tailwindcss from '@tailwindcss/vite';
-import laravel from 'laravel-vite-plugin';
-import { bunny } from 'laravel-vite-plugin/fonts';
+import ugarit from 'ugarit-vite-plugin';
+import { bunny } from 'ugarit-vite-plugin/fonts';
 import { defineConfig, lazyPlugins } from 'vite-plus';
 
 const isSvelteCheck = process.argv.some((argument) =>
@@ -11,12 +11,12 @@ const isSvelteCheck = process.argv.some((argument) =>
 );
 
 if (isSvelteCheck) {
-    process.env.LARAVEL_BYPASS_ENV_CHECK ??= '1';
+    process.env.UGARIT_BYPASS_ENV_CHECK ??= '1';
 }
 
 export default defineConfig({
     plugins: lazyPlugins(() => [
-        laravel({
+        ugarit({
             input: ['resources/css/app.css', 'resources/js/app.ts'],
             refresh: true,
             fonts: [

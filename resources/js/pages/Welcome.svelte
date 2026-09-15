@@ -52,7 +52,7 @@
             >
                 <h1 class="mb-1 font-medium">Let's get started</h1>
                 <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">
-                    Laravel has an incredibly rich ecosystem. <br />We suggest
+                    Ugarit has an incredibly rich ecosystem. <br />We suggest
                     starting with the following.
                 </p>
                 <ul class="mb-4 flex flex-col lg:mb-6">
@@ -71,7 +71,7 @@
                         <span>
                             Read the
                             <a
-                                href="https://laravel.com/docs"
+                                href="https://ugarit.com/docs"
                                 target="_blank"
                                 class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                             >
@@ -134,7 +134,7 @@
                 <ul class="flex gap-3 text-sm leading-normal">
                     <li>
                         <a
-                            href="https://cloud.laravel.com"
+                            href="https://cloud.ugarit.com"
                             target="_blank"
                             class="inline-block rounded-sm border border-black bg-[#1b1b18] px-5 py-1.5 text-sm leading-normal text-white hover:border-black hover:bg-black dark:border-[#eeeeec] dark:bg-[#eeeeec] dark:text-[#1C1C1A] dark:hover:border-white dark:hover:bg-white"
                         >
@@ -146,7 +146,7 @@
             <div
                 class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/364] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden"
             >
-                <!-- Laravel Logo -->
+                <!-- Ugarit Logo -->
                 <svg
                     class="w-full text-[#F53003] dark:text-[#F61500] transition-all translate-y-0 opacity-100 max-w-none duration-750 starting:opacity-0 motion-safe:starting:translate-y-6"
                     viewBox="0 0 438 104"
