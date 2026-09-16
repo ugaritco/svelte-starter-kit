@@ -18,7 +18,7 @@
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
     "bits-ui": "^2.15.0",
     "clsx": "^2.1.1",
-    "ugarit-vite-plugin": "npm:laravel-vite-plugin@^3.0.0",
+    "ugarit-vite-plugin": "github:ugaritco/vite-plugin#v1.00.00",
     "svelte": "^5.16.0",
     "svelte-sonner": "^0.3.28",
     "tailwind-merge": "^3.2.0",
@@ -26,7 +26,7 @@
     "tw-animate-css": "^1.2.5"
   },
   "devDependencies": {
-    "@ugarit/vite-plugin-wayfinder": "npm:@laravel/vite-plugin-wayfinder@^0.1.3",
+    "@ugarit/vite-plugin-wayfinder": "github:ugaritco/vite-plugin-wayfinder#v1.00.00",
     "@tailwindcss/vite": "^4.1.11",
     "@types/node": "^22.13.5",
     "concurrently": "^10.0.3",
