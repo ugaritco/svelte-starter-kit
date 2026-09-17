@@ -33,6 +33,13 @@ export default defineConfig({
             formVariants: true,
         }),
     ]),
+        build: {
+        rolldownOptions: {
+            checks: {
+                pluginTimings: false,
+            },
+        },
+    },
     server: {
         watch: {
             ignored: [
